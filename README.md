@@ -3,6 +3,13 @@
 ## Popis projektu
 - Cílem mého projektu je vytvořit zavlažovací systém, který bude zavlažovat rostliny
 
+# Popis postupu
+- Nakoupit hardware
+- Spojit potřebné součástky
+- Správně naprogramovat
+- Opravit chyby
+- Finish
+
 ## Inspirace = 
 1. https://www.youtube.com/watch?v=nUHizmtyt74  
 2. https://www.youtube.com/watch?v=O_Q1WKCtWiA
