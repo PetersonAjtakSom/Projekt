@@ -5,9 +5,11 @@
 
 # Popis postupu
 - Nakoupit hardware - 14.9.
+- Začít zároveň psát dokumentaci
 - Spojit potřebné součástky
 - Správně naprogramovat
-- Opravit chyby
+- Zkoušet zda funguje jak má
+- Popřípadě opravit chyby
 - Dokončit dokumentaci
 - Finish - 1.12.
 
