@@ -4,7 +4,7 @@
 - Cílem mého projektu je vytvořit zavlažovací systém, který bude zavlažovat rostliny
 
 # Popis postupu
-- Nakoupit hardware - 14.9.
+- Nakoupit hardware - 15.9.
 - Začít zároveň psát dokumentaci
 - Spojit potřebné součástky
 - Správně naprogramovat
