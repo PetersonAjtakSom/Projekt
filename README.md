@@ -8,6 +8,7 @@
 - Spojit potřebné součástky
 - Správně naprogramovat
 - Opravit chyby
+- Dokončit dokumentaci
 - Finish - 1.12.
 
 ## Inspirace = 
