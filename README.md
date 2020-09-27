@@ -6,9 +6,9 @@
 
 # Popis postupu
 - Nakoupit hardware - 15.9.
-- Začít zároveň psát dokumentaci
-- Spojit potřebné součástky
-- Správně naprogramovat
+- Začít zároveň psát dokumentaci - 20.9.
+- Spojit potřebné součástky - do konce Září
+- Správně naprogramovat - do konce Října
 - Zkoušet zda funguje jak má
 - Popřípadě opravit chyby
 - Dokončit dokumentaci
