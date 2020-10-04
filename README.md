@@ -37,4 +37,4 @@
 - další (hadička, kabely, napájecí zdroj, tavná pistole (na izolaci), kyblík)
 
 ## Software
-- Arduino
+- Arduino IDE
