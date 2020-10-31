@@ -3,6 +3,7 @@
 ## Popis projektu
 - Cílem mého projektu je vytvořit zavlažovací systém, který bude zavlažovat rostliny
 - Systém bude automaticky, díky detektoru vlhkosti, zalévat rostlinu až do požadovaného bodu vlhkosti
+- Díky informacím ohledně počasí se bude řídit i podle stupňů
 
 # Popis postupu
 - Nakoupit hardware - 15.9.
