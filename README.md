@@ -9,7 +9,7 @@
 - Nakoupit hardware - 15.9.
 - Začít zároveň psát dokumentaci - do konce Září
 - Spojit potřebné součástky - do konce Října
-- Správně naprogramovat - do konce Října
+- Správně naprogramovat - do konce Listopadu
 - Zkoušet zda funguje jak má
 - Popřípadě opravit chyby
 - Dokončit dokumentaci
