@@ -1,35 +1,44 @@
-int WATERPUMP = 13; 
-int sensor = 8; 
-int val; 
+// Půdní vlhkoměr
+
+#define analogPin A0
+#define digitalPin 3
+#define vccPin 4
+#define cerpadloPin 6 
+// proměnná pro uložení času kontroly
+unsigned long cas = 0;
 
 void setup() {
-  
-  pinMode(13,OUTPUT); 
-  pinMode(8,INPUT); 
-  
-  Serial.begin(9600); 
-  while (! Serial);
-  Serial.println("Speed 0 to 255");
+  Serial.begin(9600);
+  pinMode(analogPin, INPUT);
+  pinMode(digitalPin, INPUT);
+  pinMode(vccPin, OUTPUT);
+  pinMode(cerpadloPin, OUTPUT);
+  digitalWrite(vccPin, LOW);
 }
 
-void loop()
-  { 
-  if (Serial.available()) 
-  {
-    int speed = Serial.parseInt(); 
-    if (speed >= 0 && speed <= 255)
-    {
-      analogWrite(WATERPUMP, speed);
+void loop() {
+  if (millis() - cas > 3000) {
+    // zapneme napájecí napětí pro modul s krátkou pauzou
+    digitalWrite(vccPin, HIGH);
+    delay(100);
+    int analog = analogRead(analogPin);
+    bool digit = digitalRead(digitalPin);
+    Serial.print("Analogovy vstup: ");
+    Serial.print(analog);
+    if (digit == LOW) {
+      Serial.print(" | Detekovano prekroceni hranice!");
     }
+    Serial.println();
+    digitalWrite(vccPin, LOW);
+    cas = millis();
+
+    //ovladani cerpadla na zaklade cteni ze senzoru
+    if (analog <= 800){
+      digitalWrite(cerpadloPin, HIGH);
+    }
+    else {
+        digitalWrite(cerpadloPin, LOW);
+    }
+    
   }
-  val = digitalRead(8);  
-  if(val == LOW) 
-  {
-  digitalWrite(13,LOW);
-  }
-  else
-  {
-  digitalWrite(13,HIGH); 
-  }
-  delay(400);
 }
