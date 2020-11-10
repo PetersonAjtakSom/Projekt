@@ -4,7 +4,6 @@
 #define digitalPin 3
 #define vccPin 4
 #define cerpadloPin 6 
-// proměnná pro uložení času kontroly
 unsigned long cas = 0;
 
 void setup() {
@@ -18,7 +17,6 @@ void setup() {
 
 void loop() {
   if (millis() - cas > 3000) {
-    // zapneme napájecí napětí pro modul s krátkou pauzou
     digitalWrite(vccPin, HIGH);
     delay(100);
     int analog = analogRead(analogPin);
@@ -32,7 +30,6 @@ void loop() {
     digitalWrite(vccPin, LOW);
     cas = millis();
 
-    //ovladani cerpadla na zaklade cteni ze senzoru
     if (analog <= 800){
       digitalWrite(cerpadloPin, HIGH);
     }
