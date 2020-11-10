@@ -32,7 +32,7 @@
 - https://arduino-shop.cz/arduino/1271-eses-mini-cerpadlo.html?fbclid=IwAR10yyf9xSeblmNohIqFRahMZdYSLbaFc2UuU2YYQlplq6_udtG650_FcGY
 
 ## Hardware
-- Arduino Nano ATMega328
+- Arduino Nano ATMega328P
 - Arduino senzor vlhkosti
 - Mini čerpadlo
 - další (hadička, kabely, napájecí zdroj, tavná pistole (na izolaci), kyblík)
