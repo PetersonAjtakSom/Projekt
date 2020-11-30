@@ -9,6 +9,8 @@
 - Nakoupit hardware - 15.9.
 - Začít zároveň psát dokumentaci - do konce Září
 - Spojit potřebné součástky - do konce Října
+ = funguje displej, senzor, tlačítka.
+ = řeším problém s čerpadlem.
 - Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem)
 - Zkoušet zda funguje jak má
 - Popřípadě opravit chyby
