@@ -9,11 +9,11 @@
 - Nakoupit hardware - 15.9.
 - Začít zároveň psát dokumentaci - do konce Září
 - Spojit potřebné součástky - do konce Října
-- Správně naprogramovat - do konce Listopadu
+- Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem)
 - Zkoušet zda funguje jak má
 - Popřípadě opravit chyby
 - Dokončit dokumentaci
-- Finish - 1.12.
+- Finish
 
 ## Inspirace = 
 1. https://www.youtube.com/watch?v=nUHizmtyt74  
