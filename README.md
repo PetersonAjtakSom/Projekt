@@ -6,15 +6,15 @@
 - Body vlhkosti si budeme moci nastavovat sami pomocí tlačítek
 
 # Popis postupu
-- Nakoupit hardware - 15.9.
-- Začít zároveň psát dokumentaci - do konce Září
-- Spojit potřebné součástky - do konce Října
+- Nakoupit hardware - 15.9. ✔
+- Začít zároveň psát dokumentaci - do konce Září  ✔
+- Spojit potřebné součástky - do konce Října ✔
 - = funguje displej, senzor, tlačítka.
-- = řeším problém s čerpadlem.
-- Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem)
-- Zkoušet zda funguje jak má
-- Popřípadě opravit chyby
-- Dokončit dokumentaci
+- = řeším problém s čerpadlem - vyřešeno.
+- Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem) = problém vyřešen ✔
+- Zkoušet zda funguje jak má ✔
+- Popřípadě opravit chyby 
+- Dokončit dokumentaci 
 - Finish
 
 ## Inspirace = 
@@ -37,7 +37,7 @@
 - Arduino Nano ATMega328P
 - Arduino senzor vlhkosti
 - Mini čerpadlo
-- další (hadička, kabely, napájecí zdroj, tavná pistole (na izolaci), kyblík)
+- další (hadička, kabely, napájecí zdroj, kyblík)
 
 ## Software
 - Arduino IDE
