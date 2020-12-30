@@ -1,4 +1,4 @@
-# Projekt - Zavlažování
+# Projekt - Automatický Zavlažovací Systém
 
 ## Popis projektu
 - Cílem mého projektu je vytvořit zavlažovací systém, který bude zavlažovat rostliny
