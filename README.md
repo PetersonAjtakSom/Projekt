@@ -3,19 +3,20 @@
 ## Popis projektu
 - Cílem mého projektu je vytvořit zavlažovací systém, který bude zavlažovat rostliny
 - Systém bude automaticky, díky detektoru vlhkosti, zalévat rostlinu až do požadovaného bodu vlhkosti
+- Momentální bod vlhkosti bude vypisován na LCD displeji, taktéž zda čerpadlo zrovna bude čerpad vodu či nikoliv
 - Body vlhkosti si budeme moci nastavovat sami pomocí tlačítek
 
 # Popis postupu
 - Nakoupit hardware - 15.9. ✔
 - Začít zároveň psát dokumentaci - do konce Září  ✔
 - Spojit potřebné součástky - do konce Října ✔
-- = funguje displej, senzor, tlačítka.
-- = řeším problém s čerpadlem - vyřešeno.
+- = funguje displej, senzor, tlačítka ✔
+- = řeším problém s čerpadlem - vyřešeno  ✔
 - Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem) = problém vyřešen ✔
 - Zkoušet zda funguje jak má ✔
-- Popřípadě opravit chyby 
+- Popřípadě opravit chyby = 28.12. ✔
 - Dokončit dokumentaci 
-- Finish
+- Finish = 3.1.2021
 
 ## Inspirace = 
 1. https://www.youtube.com/watch?v=nUHizmtyt74  
@@ -35,9 +36,12 @@
 
 ## Hardware
 - Arduino Nano ATMega328P
+- LCD Displej
 - Arduino senzor vlhkosti
 - Mini čerpadlo
 - další (hadička, kabely, napájecí zdroj, kyblík)
 
 ## Software
 - Arduino IDE
+- PlatformiO IDE
+- KiCAD
