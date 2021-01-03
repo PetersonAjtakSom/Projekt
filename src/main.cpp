@@ -7,18 +7,28 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define digitalPin 2
 #define vccPin 4
 #define motorPin 7
+#define buttonPlus 3
+#define buttonMinus 2
 
-unsigned long cas = 0;
 
+unsigned long cas = 0; 
+volatile byte state = LOW;
+int zavlazovaciBod = 650;
+int cislo = 0;
 void setup() {
- 
+  
+  
   pinMode(analogPin, INPUT);
   pinMode(digitalPin, INPUT);
   pinMode(vccPin, OUTPUT);
   pinMode(motorPin, OUTPUT);
+  pinMode(buttonPlus, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(buttonPlus), funkce_plus, RISING);
+  pinMode(buttonMinus, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(buttonMinus), funkce_minus, RISING);
   digitalWrite(vccPin, LOW);
   digitalWrite(motorPin, LOW);
-
+ 
   lcd.begin();
 
   lcd.backlight();
@@ -26,13 +36,20 @@ void setup() {
   lcd.setCursor(0, 1);
   lcd.print("S:");
   lcd.setCursor(2, 1);
-
+  
   lcd.setCursor(10, 1);
   lcd.print("M:");
 }
 
-void loop() {
+void funkce_plus(){
+    zavlazovaciBod+=50;
+  }
 
+void funkce_minus(){
+    zavlazovaciBod-=50;
+  }
+
+void loop() {
   if (millis() - cas > 3000) {
 
     digitalWrite(vccPin, HIGH);
@@ -45,7 +62,8 @@ void loop() {
     lcd.setCursor(2, 1);
     lcd.print(analog);
 
-    if(analog > 650){
+  
+    if(analog > zavlazovaciBod){
       digitalWrite(motorPin, HIGH);
       delay(3000);
       digitalWrite(motorPin,LOW);
@@ -56,7 +74,7 @@ void loop() {
       lcd.setCursor(12, 1);
       lcd.print("OFF");
     }
-    
+
     digitalWrite(vccPin, LOW);
     cas = millis();
   }
