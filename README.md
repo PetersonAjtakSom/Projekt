@@ -15,8 +15,8 @@
 - Správně naprogramovat - do konce Listopadu + pár týdnů navíc (problém s čerpadlem) = problém vyřešen ✔
 - Zkoušet zda funguje jak má ✔
 - Popřípadě opravit chyby = 28.12. ✔
-- Dokončit dokumentaci 
-- Finish = 3.1.2021
+- Dokončit dokumentaci ✔
+- Finish = 3.1.2021 ✔
 
 ## Inspirace = 
 1. https://www.youtube.com/watch?v=nUHizmtyt74  
