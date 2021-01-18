@@ -8,7 +8,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 //Nastavení čísel propojovacích pinů
 #define analogPin A0
-#define digitalPin 2
+#define digitalPin 5
 #define vccPin 4
 #define motorPin 7
 #define buttonPlus 3
