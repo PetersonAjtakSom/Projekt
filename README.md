@@ -46,5 +46,5 @@
 - PlatformiO IDE
 - KiCAD
 
-#Obhajoba =>
+# Obhajoba =>
 https://www.youtube.com/watch?v=FZZMtxzJ6is&t=2s
