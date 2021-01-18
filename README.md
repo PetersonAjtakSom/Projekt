@@ -45,3 +45,6 @@
 - Arduino IDE
 - PlatformiO IDE
 - KiCAD
+
+#Obhajoba =>
+https://www.youtube.com/watch?v=FZZMtxzJ6is&t=2s
